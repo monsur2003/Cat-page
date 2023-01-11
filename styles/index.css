@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+.header{
+    background-image: linear-gradient(to left, #2020534d,#4a0c912d), url(../images/cat\ \(6\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+   
+
+}
+.pet-gallery{
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+    
+}
+.header-title{
+    font-size: 50px;
+    font-weight:bold;
+    width: 350px;
+    margin-bottom: 30px;
+    color: #ffe3af;
+    
+}
+.pet-dis{
+    width: 450px;
+    color: rgb(156, 156, 119);
+    font-size: px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.alert{
+   
+    border: 1px solid rgb(204, 58, 119);
+    border-radius: 8px;
+    padding: 4px 10px;
+    width: 400px;
+    color: #ffe6b8;
+    margin-top: 20px;
+    
+}
+.alert:hover{
+    background-color: #7e487517;
+    
+    border: 1px solid rgb(109, 23, 189);
+    border-radius: 8px;
+    padding: 8px 10px;
+    width: 400px;
+    color: #ffe7ba;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+button{
+       
+    background-color: rgba(151, 55, 189, 0.966);
+    padding: 10px 25px;
+    color: #ffe7ba;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600px;
+    color:#ffe7ba ;
+    
+}
+ button:hover{
+    background-color: rgba(106, 67, 117, 0.637);
+   padding: 10px 25px;
+   border: 1px solid rgb(156, 15, 156);
+    color:rgba(151, 55, 189, 0.966);
+    text-decoration: none;
+    border-radius: 8px;
+}
