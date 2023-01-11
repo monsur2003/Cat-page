@@ -25,6 +25,7 @@
     width: 350px;
     margin-bottom: 30px;
     color: #ffe3af;
+    text-shadow: 0.2px 0.2px 2px #ffd689 ;
     
 }
 .pet-dis{
@@ -33,10 +34,11 @@
     font-size: px;
     font-weight: 300;
     margin-bottom: 20px;
+    text-shadow: 0.2px 0.2px 1px #ffd689 ;
 }
 .alert{
    
-    border: 1px solid rgb(204, 58, 119);
+    border: 1px solid rgba(204, 58, 94, 0.281);
     border-radius: 8px;
     padding: 4px 10px;
     width: 400px;
@@ -60,11 +62,13 @@
 }
 button{
        
-    background-color: rgba(151, 55, 189, 0.966);
+    background-color: rgba(150, 43, 192, 0.63);
     padding: 10px 25px;
     color: #ffe7ba;
     text-decoration: none;
     border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(128, 0, 128, 0.801);
+    border: none;
 }
 .btn a{
     text-decoration: none;
@@ -74,10 +78,11 @@ button{
     
 }
  button:hover{
-    background-color: rgba(106, 67, 117, 0.637);
+    background-color: rgba(129, 53, 150, 0.568);
    padding: 10px 25px;
    border: 1px solid rgb(156, 15, 156);
     color:rgba(151, 55, 189, 0.966);
     text-decoration: none;
     border-radius: 8px;
+    box-shadow: 1px 2px 10px purple;
 }
